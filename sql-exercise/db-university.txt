@@ -60,7 +60,7 @@ FROM `departments`;
 
 8)Quanti sono gli insegnati che non hanno un numero di telefono (50)
 
-SELECT * 
+SELECT COUNT(*) 
 FROM `teachers` 
 WHERE `phone` IS NULL;
 
